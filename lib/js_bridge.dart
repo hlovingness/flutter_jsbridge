@@ -18,7 +18,7 @@ class JsBridge {
   static final String _protocolScheme = "jsbridge://";
   final String _fetchData = "${_protocolScheme}return/fetch";
   final String _returnData = "${_protocolScheme}return/sendMsg/";
-  String _dartToJs = "javascript:WebViewJavascriptBridge._handleMessageFromNative('%s');";
+  String _dartToJs = "javascript:JKEventHandler._handleMessageFromNative('%s');";
 
   void loadJs(WebViewController controller) {
     _webViewController = controller;
@@ -82,7 +82,7 @@ class JsBridge {
   }
 
   void _fetchQueue() {
-    _loadJs("WebViewJavascriptBridge._fetchQueue()");
+    _loadJs("JKEventHandler._fetchQueue()");
   }
 
   void callHandler(String handlerName, {dynamic data, CallBackFunction onCallBack}) {
