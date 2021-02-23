@@ -14,7 +14,7 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 ## Usage
-Add `flutter_jsbridge` as a [dependency in your pubspec.yaml file](https://pub.dev/packages/flutter_jsbridge).
+Add `flutter_jsbridge` as a [dependency in your pubspec.yaml file](https://pub.dev/packages/flutter_jsbridge_jk).
 ```
 dependencies:
   flutter_jsbridge: ^0.0.1
@@ -26,7 +26,7 @@ dependencies:
 final JsBridge _jsBridge = JsBridge();
 ...
 WebView(
-    initialUrl: "https://www.adger.me}",
+    initialUrl: "http://www.adger.me",
     javascriptMode: JavascriptMode.unrestricted,
     onWebViewCreated: (WebViewController webViewController) async {
         _jsBridge.loadJs(webViewController);

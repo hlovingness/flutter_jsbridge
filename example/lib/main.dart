@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:flutter_jsbridge/flutter_jsbridge.dart';
-import 'package:flutter_jsbridge/js_bridge.dart';
+import 'package:flutter_jsbridge_jk/flutter_jsbridge.dart';
+import 'package:flutter_jsbridge_jk/js_bridge.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 void main() {
@@ -56,7 +56,7 @@ class _MyAppState extends State<MyApp> {
             title: const Text('Plugin example app'),
           ),
           body: WebView(
-            initialUrl: "https://www.adger.me?timeStamp=${new DateTime.now().millisecondsSinceEpoch}",
+            initialUrl: "https://www.adger.me",
             javascriptMode: JavascriptMode.unrestricted,
             onWebViewCreated: (WebViewController webViewController) async {
               _jsBridge.loadJs(webViewController);
