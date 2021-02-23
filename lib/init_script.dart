@@ -254,7 +254,7 @@ String init_script_ios = '''
 	}
 	var JKEventHandler = window.JKEventHandler = {
 		registerHandler: registerHandler,
-		callHandler: callHandler,
+		callNativeFunction: callHandler,
 		disableJavscriptAlertBoxSafetyTimeout: disableJavscriptAlertBoxSafetyTimeout,
 		_handleMessageFromNative: _handleMessageFromNative,
 		_fetchQueue: _fetchQueue

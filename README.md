@@ -17,7 +17,7 @@ samples, guidance on mobile development, and a full API reference.
 Add `flutter_jsbridge` as a [dependency in your pubspec.yaml file](https://pub.dev/packages/flutter_jsbridge_jk).
 ```
 dependencies:
-  flutter_jsbridge: ^0.0.1
+  flutter_jsbridge: ^0.0.4
 ```
 ### Init JsBridge and register handler
 

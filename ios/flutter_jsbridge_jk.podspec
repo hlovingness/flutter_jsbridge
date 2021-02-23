@@ -1,10 +1,10 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.
-# Run `pod lib lint flutter_jsbridge.podspec' to validate before publishing.
+# Run `pod lib lint flutter_jsbridge_jk.podspec' to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'flutter_jsbridge'
-  s.version          = '0.0.1'
+  s.name             = 'flutter_jsbridge_jk'
+  s.version          = '0.0.3'
   s.summary          = 'flutter jsbridge plugin'
   s.description      = <<-DESC
 flutter jsbridge plugin
