@@ -1,6 +1,6 @@
 name: flutter_jsbridge_jk
 description: flutter jsbridge plugin JKEventHandler
-version: 0.0.4
+version: 0.0.5
 homepage: https://github.com/Adgeros/flutter_jsbridge
 
 environment:
@@ -10,7 +10,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # webview_flutter: ^1.0.7
   webview_flutter: ^2.0.8
   sprintf: ^4.0.0
 
