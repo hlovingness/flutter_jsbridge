@@ -363,7 +363,7 @@ String init_script_ios = '''
 	setTimeout(_callWVJBCallbacks, 0);
 
 	function _callWVJBCallbacks() {
-		var callbacks = window.WVJBCallbacks;
+		var callbacks = window.WVJBCallbacks || [];
 		delete window.WVJBCallbacks;
 		for (var i=0; i<callbacks.length; i++) {
 			callbacks[i](window.JKEventHandler);
